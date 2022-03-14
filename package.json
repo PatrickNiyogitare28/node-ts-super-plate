@@ -6,6 +6,7 @@
   "scripts": {
     "test": "mocha --config ./mocharc.jsonc",
     "start": "node ./dist",
+    "start:dev":"nodemon ./src/index.ts",
     "build": "npm run clean && tsc -p tsconfig-build.json",
     "prestart": "npm run build",
     "clean": "rm -rf dist"
@@ -14,8 +15,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.1",
     "module-alias": "^2.2.2",
+    "nodemon": "^2.0.15",
     "typescript-ioc": "^3.2.2"
   },
   "devDependencies": {
