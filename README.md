@@ -12,7 +12,7 @@ A boilerplate for a [Node.js®](https://nodejs.org/en/) backend api written in [
 
 ## TL;DR
 
-`git clone https://github.com/revrenlove/node-boilerplate`
+`git clone https://github.com/PatrickNiyogitare28/node-ts-super-plate.git`
 
 `cd node-boilerplate`
 
@@ -157,7 +157,3 @@ Code linter for TypeScript and JavaScript
 #### [Mocha Sidebar](https://marketplace.visualstudio.com/items?itemName=maty.vscode-mocha-sidebar)
 
 Sidebar test runner for Mocha Tests
-
-## TODO: List
-
-- Finish this documentation...
